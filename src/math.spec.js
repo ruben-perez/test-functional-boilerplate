@@ -24,8 +24,9 @@ describe('mult', () => {
     expect(result).to.equal(1);
   })
 
-  xit('should multiply 1 * 3 to make X', () => {
-    //expect(false).to.equal(true);
+  it('should multiply 1 * 3 to make 3', () => {
+    let result = mult(1,3)
+    expect(result).to.equal(3);
   })
 })
 
